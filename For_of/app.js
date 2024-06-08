@@ -50,9 +50,10 @@ const testScores = {
 // }
 
 //2. for of + Object.values
-let total = 0;
-let scores = Object.values(testScores); //testScores은 객체이기 때문에 그 자체로 길이(개수)를 구할 수 없다.
-for (let score of scores) {
-    total += score;
-}
-console.log(total / scores.length);
+// let total = 0;
+// let scores = Object.values(testScores); 
+// //testScores은 객체이기 때문에 그 자체로 길이(개수)를 구할 수 없다.
+// for (let score of scores) {
+//     total += score;
+// }
+// console.log(total / scores.length);
