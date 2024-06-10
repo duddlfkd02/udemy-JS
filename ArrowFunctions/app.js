@@ -57,5 +57,5 @@ const movies = [
 
 //arrowfunction
 const newMovie = movies.map(movie => {
-    `${movie.title} = ${movie.score / 10}`
+    return `${movie.title} = ${movie.score / 10}`
 })
